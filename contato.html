@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/logo-suv.png" type="image/x-icon">
+    <title>Contato - Despachante Brizuela</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="contato-style.css">
+
+</head>
+   
+<body>
+    <section>
+        <header> <!--Cabeçalho-->
+            <a href="#"><img src="assets/logo-despachante-branca.png"  class="logo"></a>
+            <ul> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="#">Sobre nós</a></li>                
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </header>
+
+    <div class="contato">
+        <div id="div-a">          
+            <form action="https://formsubmit.co/despbrizuela@gmail.com" method="POST" class="form">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Seu nome" required/>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Seu e-mail" required/>
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" placeholder="Escreva sua mensagem..."></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit">Enviar</button>
+            </form>
+       </div>       
+    
+
+    
+       <div id="div-b">
+            <ul style="list-style:none" class="infos-contato">            
+                <li>
+                    <span class="material-icons">whatsapp</span>
+                    (41) 9975-0071</li>
+                <li>
+                    <span class="material-icons">place</span>
+                    Av. Espirito Santo, 625 <br> Colombo - Paraná
+                </li>
+                <li>
+                    <span class="material-icons">schedule</span>
+                    Segunda à Sexta: 8h00 às 18h00 <br> Sábado: 8h00 às 12h00 <br> Não fechamos no horário de almoço
+                </li>
+                <li>
+                    <span class="material-icons">mail_outline</span>
+                    despbrizuela@gmail.com
+                </li>
+            </ul>   
+        </div>    
+    </div> 
+        <!--MAPA-->
+       <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.368996576614!2d-49.183921284373575!3d-25.35894683630153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce8eb2156c4b1%3A0x9c043a55a4d30515!2sAv.%20Esp%C3%ADrito%20Santo%2C%20625%20-%20Fatima%2C%20Colombo%20-%20PR%2C%2083408-410!5e0!3m2!1spt-BR!2sbr!4v1643679720067!5m2!1spt-BR!2sbr" width="100%" height="300"  frameborder="0" style="border:0;" allowfullscreen></iframe>
+    </section>
+     <!--Inicio rodapé-->
+     <footer>
+        <div class="container">
+            <div class="sec sobrenos">
+                <h2>Sobre nós</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In optio nisi ut velit ea omnis quas rerum. Obcaecati aliquid distinctio ea aspernatur maxime. Consectetur assumenda veritatis ex beatae nobis fuga.</p>
+                <ul class="sci">
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec navegue">
+                <h2>Navegue</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>       
+            </div>
+            <div class="sec contato">
+                <h2>Contato</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span>Avenida Espirito Santo, 625 - Fátima<br>
+                        Colombo - Paraná <br>CEP: 83408-410</span>
+                        <span></span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <p><a href="tel:41999750071">(41) 99975-0071</a><br>
+                            <a href="#">(41) 0000-0000</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <p><a href="mailto:despbrizuela@gmail.com">despbrizuela@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>        
+    </footer>
+    <div class="copyrightTexto">
+        <p>2022 &sdot; Despachante Brizuela &sdot; by Guilherme Navarro</p>
+    </div>
+    <!--Fim rodapé-->
+  </body>
+</html>
